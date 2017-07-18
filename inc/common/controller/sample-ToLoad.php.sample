@@ -1,0 +1,16 @@
+<?php
+
+# Here you can include the 'model' and 'view' files - not other controllers! All controllers are loaded automatically.
+
+class _OFWP_jvet__Init_Data_Common {
+
+	private function __construct( $params ) {
+
+	}
+
+	public static function init( $params ) {
+		return new _OFWP_jvet__Init_Data_Common( $params );
+	}
+}
+
+$GLOBALS['_OFWP_jvet__Init_Data_Common'] = _OFWP_jvet__Init_Data_Common::init( array() ); 

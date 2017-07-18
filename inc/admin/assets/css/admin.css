@@ -1,0 +1,15 @@
+.opes-favicon-icon-admin-block .announcement {
+	margin-top: 50px;
+	padding: 15px;
+	background-color: #99E699;
+	color: #0E390E;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+	border: 1px solid #145214;
+	border-radius: 4px;
+}
+
+.opes-favicon-icon-admin-block #to-generate-media-input {
+	display: none;
+}
